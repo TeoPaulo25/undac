@@ -151,14 +151,13 @@ hr {
 .cards-banner-one {
   width: 100%;
   height: 350px;
-  background: url("./img/tech-red.jpg");
-  margin-bottom: 40px;
+  background: url("./img/image-five.jpg") no-repeat center center/cover;
 }
 
 .cards-banner-one .content {
-  width: 40%;
-  padding: 90px 0 0 30px;
-  color: #fff;
+  width: 50%;
+  padding: 90px 0 0 40px;
+  color: rgb(255, 255, 255);
 }
 
 .cards-banner-one p,
@@ -174,7 +173,79 @@ hr {
 }
 
 .cards-banner-two .content {
+  width: 60%;
+  padding: 100px 0 0 30px;
+}
+
+/* CARDS BANNER THREE*/
+.cards-banner-three {
+  width: 100%;
+  height: 350px;
+  background: url("./img/image-five.jpg") no-repeat center center/cover;
+}
+
+.cards-banner-three .content {
+  width: 40%;
+  padding: 100px 0 0 30px;
+}
+
+/* CARDS BANNER FOUR*/
+.cards-banner-four {
+  width: 100%;
+  height: 350px;
+  background: url("./img/image-five.jpg") no-repeat center center/cover;
+}
+
+.cards-banner-four .content {
   width: 50%;
+  padding: 100px 0 0 30px;
+}
+
+/* CARDS BANNER FIVE*/
+.cards-banner-five {
+  width: 100%;
+  height: 350px;
+  background: url("./img/image-five.jpg") no-repeat center center/cover;
+}
+
+.cards-banner-five .content {
+  width: 50%;
+  padding: 100px 0 0 30px;
+}
+
+/* CARDS BANNER SIX*/
+.cards-banner-six {
+  width: 100%;
+  height: 350px;
+  background: url("./img/cre.jpg") no-repeat center center/cover;
+}
+
+.cards-banner-six .content {
+  width: 60%;
+  padding: 100px 0 0 30px;
+}
+
+/* CARDS BANNER SEVEN*/
+.cards-banner-seven {
+  width: 100%;
+  height: 350px;
+  background: url("./img/cre.jpg") no-repeat center center/cover;
+}
+
+.cards-banner-seven .content {
+  width: 50%;
+  padding: 100px 0 0 30px;
+}
+
+/* CARDS BANNER EIGHT*/
+.cards-banner-eight {
+  width: 100%;
+  height: 350px;
+  background: url("./img/cre.jpg") no-repeat center center/cover;
+}
+
+.cards-banner-eight .content {
+  width: 60%;
   padding: 100px 0 0 30px;
 }
 
