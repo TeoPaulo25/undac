@@ -10,6 +10,25 @@
   --theme: white;
 }
 
+/*desplazamiento*/
+html{
+  scroll-behavior: smooth;
+}
+section[id]{
+  scroll-margin-top: 70px;
+}
+
+/*scrollbar*/
+body::-webkit-scrollbar{
+  width: 15px;
+}
+body::-webkit-scrollbar-thumb{
+  background:var(--roses) ;
+  border-radius: 50px;
+}
+body::-webkit-scrollbar-thumb:hover{
+  background: var(--grays)
+}
 
 /* Global */
 * {
@@ -47,9 +66,11 @@ ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 120px;
+  height: 100px;
+  margin-top: 5px;
   color: var(--blues);
   font-weight: 500;
+  background-color: var(--grays);
 }
 
 .nav-brand {
@@ -75,7 +96,7 @@ ul {
 }
 
 .nav-main ul li a:hover {
-  border-bottom: 4px solid var(--roses);
+  border-bottom: 4px solid var(--blues);
 }
 
 .nav-main ul.nav-menu {
@@ -85,7 +106,7 @@ ul {
 }
 
 hr {
-  margin: 15px 0;
+  margin: 5px 0;
   box-shadow: 0 4px 5px var(--grays);
 }
 
